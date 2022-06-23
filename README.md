@@ -29,7 +29,7 @@ This is bot modified by me based on open-source bot below
 
 4. Follow instrution in page above to enable gzip command in Windows.
 
-5. Run import_db.bat to export the BATTLEBASE.sql.gz
+5. Run ```import_db.bat``` to export the BATTLEBASE.sql.gz
 
 6. Daily updated BATTLEBASE.sql.gz available [here](https://drive.google.com/drive/folders/18lNewKqWz6AkJ3eWyXqHNsBxpdGE4uO4?usp=sharing)
 
