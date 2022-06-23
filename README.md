@@ -20,18 +20,23 @@ This is bot modified by me based on open-source bot below
 * Please follow below step to setup your mariaDB.  
 
 1. Download [MariaDB Community Server](https://mariadb.com/downloads/community/community-server/)
+    1. Follow instruction [here](https://mariadb.com/kb/en/installing-mariadb-msi-packages-on-windows/)
 
-2. Install it and setup as below when prompt.
+2. Install it and setup as below when prompt. 
     1. username = "root"
     2. password = "mariadb123"
 
-3. Download [Cygwin](https://stackoverflow.com/questions/36733176/how-do-i-add-a-gzip-command-to-windows-cmd)
+3. Add mariaDB to PATH in Windows environment variables
+    1. ```C:\Program Files\MariaDB 10.8\bin```
+    2. Follow instruction [here](https://sebhastian.com/mysql-not-recognized-fix/)
 
-4. Follow instrution in page above to enable gzip command in Windows.
+4. Download [Cygwin](https://stackoverflow.com/questions/36733176/how-do-i-add-a-gzip-command-to-windows-cmd)
 
-5. Run ```import_db.bat``` to export the BATTLEBASE.sql.gz
+5. Follow instruction in page above to enable gzip command in Windows.
 
-6. Daily updated BATTLEBASE.sql.gz available [here](https://drive.google.com/drive/folders/18lNewKqWz6AkJ3eWyXqHNsBxpdGE4uO4?usp=sharing)
+6. Run ```import_db.bat``` to export the BATTLEBASE.sql.gz
+
+7. Daily updated BATTLEBASE.sql.gz available [here](https://drive.google.com/drive/folders/18lNewKqWz6AkJ3eWyXqHNsBxpdGE4uO4?usp=sharing)
 
 # Installation
 
