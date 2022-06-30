@@ -13,6 +13,7 @@ This is bot modified by me based on open-source bot below
 * 20% more priority for selected splinter to submit the team ( Premium )  
 * Battle history based on leaderboard player ( Premium )  
 * Will fill out empty slot with Fiend cards ( Premium )
+* Will fill out empty slot with Chaos Agent if have extra 1 mana ( Premium )
 
 # DATABASE
 
