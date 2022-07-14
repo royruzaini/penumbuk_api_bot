@@ -6,14 +6,60 @@ This is bot modified by me based on open-source bot below
 # Feature
 
 * Play multi account with 1 bot.  
-* Hardcode the team when API don't have team to submit.  
+* Hardcode the team when DATABASE don't have team to submit.  
 * Skip daily focus if not in selected splinter.  
-* Selected splinter burn ECR to meet minimun 1 focus chest for that day focus.  
+* Selected splinter burn ECR to meet minimun 1 focus chest for that day focus. (Premium)  
 * Counter opponent summoners based on last 5 battles. ( Premium )  
-* 20% more priority for selected splinter to submit the team ( Premium )  
-* Battle history based on leaderboard player ( Premium )  
-* Will fill out empty slot with Fiend cards ( Premium )
-* Will fill out empty slot with Chaos Agent if have extra 1 mana ( Premium )
+* 20% more priority for selected splinter to submit the team. ( Premium )  
+* Battle history based on leaderboard player. ( Premium )  
+* Will fill out empty slot with Fiend cards. ( Premium )
+* Will fill out empty slot with Chaos Agent if have extra 1 mana. ( Premium )
+
+# Config
+
+### Ranked Config ###
+# Play Modern or Wild ['MODERN'] / ['WILD'] 
+MODERN_WILD = ['MODERN']
+# Time to wait for next battle (seconds)
+BATTLE_INTERVAL = 5 # default is 600 (10 minutes)
+# Min ECR % should be before battling
+ECR_MIN = 75 # (do not add percentage)
+# Max ECR % needs to be before battling
+ECR_MAX = 98 # (do not add percentage)
+# Prioritize Quest
+PRIORITIZE_QUEST = True # True, False (case-insensitive)
+# Min Daily Chest to obtain, work if PRIORITIZE_QUEST = True
+CHEST_MIN = 1
+# ECR % Limit to obtain CHEST_MIN, work if PRIORITIZE_QUEST = True
+ECR_CHEST_MIN = 85
+# Claim Daily Quest Reward
+CLAIM_REWARD_QUEST = True # True, False (case-insensitive)
+# Claim Season Reward
+CLAIM_REWARD_SEASON = True # True, False (case-insensitive)
+# Advance League
+ADVANCE_LEAGUE = False # True, False (case-insensitive)
+# Max League to advance, work if ADVANCE_LEAGUE = True
+MAX_LEAGUE = ['BRONZE']
+# Prioritize Rating
+RATING_MODE = True # True, False (case-insensitive)
+# Rating should be before stop
+RATING = 700 # default is 1000 ( Silver III )
+# this splinter will prioritize for normal battle if able
+# ['Fire', 'Water', 'Earth', 'Life', 'Death', 'Dragon']
+PRIORITIZE_SPLINTER_NORMAL = ['Death']
+# Burn erc if Daily focus splinter is in PRIORITIZE_SPLINTER_NORMAL
+ERC_BURN_MODE = False # True, False (case-insensitive)
+# Burn ERC until % before stop, work if ERC_BURN_MODE = True
+ECR_BURN_MIN = 50 # (do not add percentage)
+# Renting individual cards list up in cardlist_XXX.txt, card level based on XXX value
+# will renting if Daily focus splinter is in PRIORITIZE_SPLINTER_NORMAL
+RENTING_MODE = False # True, False (case-insensitive)
+# Renting if ECR % over this, work if RENTING_MODE = True
+ECR_RENTING_MIN = 85 # (do not add percentage)
+# Ban selected summoners
+SUMMONER_BAN_MODE = False # True, False (case-insensitive)
+# Summoner Id to ban, work if SUMMONER_BAN_MODE = True
+SUMMONER_BAN_ID = []
 
 # DATABASE
 
