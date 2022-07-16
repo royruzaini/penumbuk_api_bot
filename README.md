@@ -18,8 +18,8 @@ This is bot modified by me based on open-source bot below
 # Config
 
 ### Ranked Config ###
-# Play Modern or Wild ['MODERN'] / ['WILD'] 
-MODERN_WILD = ['MODERN']
+# Play Modern or Wild 'MODERN' / 'WILD'
+MODERN_WILD = 'MODERN'
 # Time to wait for next battle (seconds)
 BATTLE_INTERVAL = 5 # default is 600 (10 minutes)
 # Min ECR % should be before battling
@@ -39,7 +39,7 @@ CLAIM_REWARD_SEASON = True # True, False (case-insensitive)
 # Advance League
 ADVANCE_LEAGUE = False # True, False (case-insensitive)
 # Max League to advance, work if ADVANCE_LEAGUE = True
-MAX_LEAGUE = ['BRONZE']
+MAX_LEAGUE = 'BRONZE'
 # Prioritize Rating
 RATING_MODE = True # True, False (case-insensitive)
 # Rating should be before stop
