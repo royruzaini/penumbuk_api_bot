@@ -7,7 +7,6 @@ This is bot modified by me based on open-source bot below
 
 * Play multi account with 1 bot.  
 * Hardcode the team when DATABASE don't have team to submit.  
-* Skip daily focus if not in selected splinter.  
 * Selected splinter burn ECR to meet minimun 1 focus chest for that day focus. (Premium)  
 * Counter opponent summoners based on last 5 battles. ( Premium )  
 * 20% more priority for selected splinter to submit the team. ( Premium )  
@@ -26,6 +25,8 @@ BATTLE_INTERVAL = 5 # default is 600 (10 minutes)
 ECR_MIN = 75 # (do not add percentage)
 # Max ECR % needs to be before battling
 ECR_MAX = 98 # (do not add percentage)
+# Skip this Quest
+SKIP_QUEST = ['Fire', 'Water', 'Earth', 'Life', 'Dragon']
 # Prioritize Quest
 PRIORITIZE_QUEST = True # True, False (case-insensitive)
 # Min Daily Chest to obtain, work if PRIORITIZE_QUEST = True
